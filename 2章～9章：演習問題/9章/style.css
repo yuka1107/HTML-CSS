@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 50px;
+}
+
+header,
+.step {
+  background-color: #ff9a4b;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 300px;
+  background-color: #eeeeee;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+}
+
+.step-image {
+  height: 150px;
+  margin: 10px;
+}
+
+.step {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  left: 0;
+}
+
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+.heading {
+  margin: 15px 0 5px;
+}
